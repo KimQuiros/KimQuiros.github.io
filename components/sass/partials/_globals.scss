@@ -1,0 +1,84 @@
+/* ==|====================
+   Partials/Globals
+   -------INDEX--------
+   #Container
+   #Max-content
+   #Breakpoints
+   ======================= */
+
+/* #Container
+ *-------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body,
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+/* #Tags
+ *-------------------------------------------------------
+ * p, a, h1 al h5
+ */
+p{
+	@include font-size(14);
+	font-family: $body;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color: $white;
+}
+
+h4,
+h5 {
+	font-family: $title;
+}
+
+h3{
+	@include font-size(40);
+	font-family: $name; 
+	border-bottom: dashed;
+	text-align: center;
+	width: 100%;
+	@media(min-width: $medium){
+		text-align: left;
+	}
+}
+
+h4{
+	@include font-size(30);
+	color: $pink;
+	margin-bottom: 20px;
+}
+
+h5{
+	@include font-size(18);
+}
+
+/* #Max-content
+ *-------------------------------------------------------*/
+.max-content{
+	margin: 0 auto;
+
+	@media (min-width: $medium){
+		max-width: 800px;
+	}
+
+	@media (min-width: $large){
+		max-width: 1000px;
+	}
+
+	@media (min-width: $big){
+		max-width: $max-content;
+	}
+}

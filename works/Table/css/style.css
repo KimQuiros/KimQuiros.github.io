@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+	margin-top: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+td{
+	border: 1px solid #202628;
+	width: 500px;
+	height: 22px;
+	color: #0A3320;
+}
+th{
+	background: #33717F;
+	color: #fff;
+}
+.th-small{
+	width: 4%;
+}
+.search{
+	border: 1px solid #202628;
+	left: 33%;
+	position: relative;
+	width: 37%;
+	height: 26px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}
+.download{
+	right: 1%;
+	position: absolute;
+}
+button{
+	height: 31px;
+	padding-bottom: 4px;
+	border: 1px solid #55878E;
+	background: none;
+	color: #33717F;
+	margin-top: 110px;
+} 
+button:hover{
+	border: none;
+	background: #55878E;
+	color: #fff;
+}
+.add-row{
+	left: 5.7%;
+	position: absolute;
+} 
+.save{
+	left:1%;
+	position: absolute;
+}
+.img-search{
+  background-color: #55878E;
+  width: 1.7%;
+  height: 18px;
+  padding: 6px;
+  left: 30.7%;
+  position: absolute;
+  text-align: center;
+}
+.fila{
+	border: 1px solid #202628;
+	width: 96.5%;
+	margin-top: 20px;
+	color: #0A3320;
+	padding: 20px;
+}
+.logo{
+	width: 15%;
+  top: 3%;
+  left: 42%;
+  position: absolute;
+}
+.table{
+	margin-top: 3px;
+}
+.search, .img-search{
+	margin-top: 110px;
+}
+.list{
+	display: inline-block;
+	list-style: none;
+	margin-left: 51px;
+	margin-bottom: 18px;
+}

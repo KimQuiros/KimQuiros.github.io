@@ -1,0 +1,38 @@
+/*----------Indice-------------
+		#container-contact-redes-sociales-link-image
+*/
+// #container-contact-redes-sociales-link-image
+.container-contact-redes-sociales{
+	text-align: center;
+	margin-top: 30px;
+
+	@media (min-width: $medium) {
+		padding: 0;
+	}
+
+	.container-contact-redes-sociales-link{
+		position: relative;
+	}
+
+	.container-contact-redes-sociales-link-image{
+		position: absolute;
+    width: 34px;
+    height: 36px;
+    left: -68px;
+    top: -56px;
+	}
+	.facebook{
+		width: 21px;
+	}
+	.container-contact-redes-sociales-svg{
+	  -webkit-transition: all 0.7s ease;
+		transition: all 0.7s ease;
+
+		&:hover{
+		  -webkit-transform: rotateY(180deg);
+			-webkit-transform-style: preserve-3d;
+			transform: rotateY(180deg);
+			transform-style: preserve-3d;
+		}
+	}
+}	

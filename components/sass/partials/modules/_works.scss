@@ -1,0 +1,87 @@
+.work{
+	padding: $padding-container;
+	margin-bottom: 20px;
+}
+
+.container-work{
+	overflow: hidden;
+	padding-bottom: 20px;
+
+	@media (min-width: $medium) {
+		padding: 0px 20px 20px 0px;
+	}
+  
+}
+
+.content-work{
+	clear: both;
+	padding-top: 100px;
+}
+
+.content-work-text{
+	text-align: center;
+	width: 100%;
+	padding-top: 55px;
+
+	p{
+		@include font-size(16);
+	}
+	@media (min-width: $large){
+		float: left;
+		width: 36%;
+	}
+}
+
+.content-tags{
+	margin-top: 10px;
+}
+
+.tags,
+.slash{
+	@include font-size(17);
+	font-family: $body;
+}
+.tags:first-child{
+	color: $pink;
+	margin-right: 10px;
+}
+
+.slash{
+	color: $pink;
+}
+
+.content-work-image{
+	text-align: center;
+  margin-top: 90px;
+
+	@media (min-width: $large){
+		margin-top: 10px;
+		float: right;
+	}
+}
+
+.img-work{
+	width: 299px;
+	
+	@media (min-width: $base){
+		width: 388px;
+	}
+
+	@media (min-width: $small){
+		width: 399px;
+	}
+
+	@media (min-width: $medium){
+		width: 500px;
+	}
+}
+
+.one-img{
+	box-shadow: 0 0 1px $black;
+	width: 299px;
+
+	@media (min-width: $medium) {
+		width: 500px;
+		margin-top: 62px;
+	}
+}

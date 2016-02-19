@@ -1,0 +1,11 @@
+.list-recipes{
+	margin-left: 209px;
+	font-family: $josefin-sans;
+	.list-recipes-item{
+		@include font-size(17);
+		text-align: left;
+		margin-top: 25px;
+		cursor: pointer;
+		margin-left: -66px;
+	}
+}

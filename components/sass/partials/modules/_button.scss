@@ -1,0 +1,19 @@
+.content-btn{
+	margin-top: 35px;
+}
+
+.btn-work{
+	@include button($pink, $pink, $white);
+  margin-right: 13px;
+}
+
+.btn-view-more{
+	clear: both;
+	width: 100%;
+	text-align: center;
+  padding-top: 120px;
+
+	a{
+		@include button($pink, $pink, $white); 
+	}
+}

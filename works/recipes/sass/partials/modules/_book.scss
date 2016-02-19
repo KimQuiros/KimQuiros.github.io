@@ -1,0 +1,65 @@
+.scene {
+  width: 45%;
+  height: 80%;
+  margin: 16% 5% 5% 50%;
+  perspective: 2000px;
+}
+.container-book {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d; 
+}
+.page {
+  position: absolute;
+  color: black;
+  width: 100%;
+  height: 100%;
+  transition: 1.5s transform;
+  transform-style: preserve-3d;  
+  transform-origin: left center;
+}
+.front{
+  position: absolute;
+  width: 100%;
+  height: 620px;
+  padding: 10% 5% 135%;
+  margin-top: -176px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  border: 1px solid $dark-pink;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, from($white), to (#fff));
+  background: linear-gradient(to bottom right, $white, #fff);
+}
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 100%;
+  height: 620px;
+  padding: 10% 5% 135%;
+  margin-top: -176px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  border: 1px solid $dark-pink;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, from($white), to (#fff));
+  background: linear-gradient(to bottom right, $white, #fff);
+}
+.page.active {
+  z-index: 2;
+}
+.page.flipped {
+  transform: rotateY(-180deg);
+}
+.page.flipped:last-of-type {
+  z-index: 0;
+}
+p {
+  margin: 0 0 0.1em;
+  text-indent: 1em;
+}
+.front{
+  border-left: 1px solid $dark-pink;
+}

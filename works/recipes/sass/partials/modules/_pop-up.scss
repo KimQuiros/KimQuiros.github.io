@@ -1,0 +1,51 @@
+.content-favorite-close{
+  display: none;
+  background: $dark-pink;
+  color: $white;
+  border: none;
+  position: absolute;
+  left: 865px;
+  top: 86px;
+}
+.list-favorite{
+  background: rgba(0,0,0,0.9);
+  width: 24%;
+  right: 143px;
+  top: 53px;
+  position: fixed;
+  z-index: 2;
+}
+.content-favorites-list-title{
+  @include font-size(16);
+  font-family: $josefin-sans;
+  color: $white;
+  border-bottom: 1px solid $white;
+  width: 89%;
+  padding-bottom: 7px;
+  text-align: center;
+}
+.list-favorite-item{
+  list-style: none;
+  margin-bottom: 24px;
+}
+.button-download{
+  float: right;
+  background: $white;
+  border: none;
+  width: 13%;
+  height: 26px;
+  top: -38px;
+  position: relative;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.category-title{
+  color: $white;
+  font-size: 19px;
+  margin-top: -5px;
+  margin-left: -118px;
+}
+.img-download{
+  width: 62%;
+  margin-top: 2px;
+}

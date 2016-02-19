@@ -1,0 +1,24 @@
+{
+	"Name" : "List of songs",
+	"Songs":[
+						{	
+							"singer":"Deemo",
+							"song":"Moon without the stars",
+							"url":"song/Moon without the stars.mp3",
+							"img":"img/deemo.jpg"
+						},
+						{	
+							"singer":"PVRIS",
+							"song":"White Noise",
+							"url":"song/White Noise.mp3",
+							"img":"img/pvris.jpg"
+						},
+						{	
+							"singer":"The Heirs",
+							"song":"Love Is",
+							"url":"song/The Heirs.mp3",
+							"img":"img/the-heirs.jpg"
+						}
+				]
+				
+}

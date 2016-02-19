@@ -1,0 +1,38 @@
+/*----------Indice----------
+		#colors
+		#tipography
+		#max-width
+		#padding-left-and-right-of-the-header
+*/
+//	#Typography
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+$title: 'Raleway', sans-serif;
+$body: 'Quattrocento Sans', sans-serif;
+$name: 'Satisfy', cursive;
+
+//	#colors
+$white: #fff;
+$black: #232323;
+$pink: #AE324D;
+$grey:#f4f4f4;
+$blue:#406776;
+
+
+//	#max-width
+$max-width: 100%;
+
+// #padding-left-and-right-of-the-header
+//welcome's padding
+$padding: 34px 40px 60px 40px;
+$padding-container: 60px 0;
+//layout
+$max-content:1200px;
+
+$base: 420px;
+$small: 600px;
+$medium: 900px;
+$large: 1000px;
+$big:1200px;

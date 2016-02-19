@@ -1,0 +1,54 @@
+/*----------Indice-------------
+		#container-header-home-welcome
+		#container-header-home-welcome-title
+		#hability
+		#container-header-home-welcome-Im
+*/
+//  #container-header-home-welcome
+.header-welcome{
+	text-align: center;
+	position: absolute;
+	font-family: $title;
+	top: 250px;
+	right: 11px;
+	z-index: 0;
+	@media(min-width: $base){
+		width: 500px;
+	}
+
+	@media(min-width: $small){
+		top: 200px;
+		right: 202px
+	}
+
+	@media (min-width: $medium){
+		right: 136px;
+	}
+//	#header-welcome-title
+	.header-welcome-title{
+		@include font-size(60);
+		font-family: $name;
+		color: $white;
+		margin: 0;
+
+		@media (min-width: $base){
+			@include font-size(60);
+		}
+	}
+//	#hability
+	.hability{
+		@include font-size(20);
+		color: $white;
+		list-style: none;
+		text-align: center;
+
+		@media (min-width: $base){
+			@include font-size(24);
+		}
+	}
+//  #header-welcome-Im
+	.header-welcome-Im{
+		text-align: center;
+		margin-left: 3px;
+	}
+}

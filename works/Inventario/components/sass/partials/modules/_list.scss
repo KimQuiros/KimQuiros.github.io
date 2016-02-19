@@ -1,0 +1,35 @@
+/* ==|====================
+ Partials/Modules/List
+
+   -------INDEX--------
+   #Container List
+   ======================= */
+
+/* #Container List
+   ========================================================================== */
+.list-title {
+	float: left;
+	margin-top: 5px;
+}
+
+.list-content-products{
+	clear: both;
+	padding-top: 14px;
+}
+
+.list-item {
+	@include font-size(16);
+	font-family: $body;
+	border-bottom: 1px solid $grey;
+	padding: 10px;
+	color: #000;
+	cursor:pointer;
+
+	&:first-child {
+		padding-top: 0; 
+	}
+
+	&:hover{
+		color: $title-color;
+	}
+}

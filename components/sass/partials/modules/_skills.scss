@@ -1,0 +1,32 @@
+.skills{
+	width: 100%;
+	background-color: $grey;
+	padding: $padding-container;
+}
+
+.container-general-skills{
+	padding: 80px 0;
+}
+
+.content-skills{
+	text-align: center;
+	margin-top: 49px;
+	width: 100%;
+
+	@media(min-width: $small){
+		display: inline-block;
+		vertical-align: top; 
+		width: 33%;
+	}
+}
+
+.content-skills-img{
+
+	img{
+		width: 25%;
+	}
+}
+
+.content-skills-title{
+	margin-bottom: 10px;
+}

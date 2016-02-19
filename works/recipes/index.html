@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>RecipeBook</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<div id="container" class="container-general  blur-in">
+	<div class="container-header-logo-controls">
+			<figure><img class="container-header-logo-controls-img" src="img/logo.png"></figure>
+			<div class="container-controls">
+				<button id="download" class="controls container-controls-download" onclick="Recipes.downloadFavorites()"><img class="icon container-controls-download-img" src="img/download.png"></button>
+				<button id="favorite" class="controls container-controls-favorite" onclick="Recipes.printFavorites()"><img class="icon container-controls-favorite-img" src="img/favorite.png"></button>
+			</div><!--container-controls-->
+		</div>
+		<header class="container-header">
+			<div class="container-about">
+				<h1 class="title-about">Acerca de</h1>
+				<p class="paragraph-about">
+					Sabemos que tu familia es lo más importante y que siempre buscas darles lo mejor. Por eso construimos un sitio lleno de excelentes recetas auténticas con tus sabores favoritos e ideas que te ayudarán a celebrar y a compartir tus celebraciones con tus seres queridos.
+					Queremos seguir acompañándote tanto en la cocina como en los distintos aspectos de tu vida.
+				<p>
+			</div> 
+		</header><!--container-header-->
+		<div id="category" class="container-category"></div>
+			<div id="content-favorites">
+				<div id="content-favorites-list"></div>
+			</div>
+		<div class="container-controls-book">
+	  	<button id="preview" class="preview container-controls-book">Anterior</button>
+	  	<button id="next" class="next container-controls-book">Siguiente</button>
+		</div><!--container-controls-book-->
+		<div class="scene"> 
+	  	<article id="book" class="container-book">
+	  	</article>
+		</div><!--scene-->
+	</div><!--id-container-->
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	  <script type="text/javascript" src="js/prueba.js"></script>
+	</body>
+</html>

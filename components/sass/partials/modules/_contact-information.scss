@@ -1,0 +1,51 @@
+/*----------Indice-------------
+		#container-contact-information
+		#container-contact-information-link-image
+		#container-contact-information-number
+		#container-contact-information-email
+*/
+// #container-contact-information
+.container-contact-information{
+	text-align: center;
+	color:$black;
+	width: 100%;
+	padding: 0;
+	.container-contact-information-list{
+		margin-left: 0;
+
+		@media (min-width: $medium) {
+			margin-left: -45px;
+		}
+	}
+
+	.container-contact-information-list-items{
+		font-family: $body;
+		margin-top: 20px;
+
+		@media (min-width: $medium) {
+			display: inline-block;
+			margin-left:63px;
+			vertical-align: top;
+		}
+	}
+	.container-contact-information-title{
+		@include font-size(23);
+		font-family: $title;
+		margin-top: 13px;
+	}
+	.container-contact-information-celephone{
+		width: 14px;
+	    margin-right: 9px;
+	    top: 7px;
+	    position: relative;
+	}
+	.container-contact-information-arroba{
+		width: 19px;
+		margin-right: 9px;
+		top: 6px;
+		position: relative;
+	}
+}	
+.contact{
+	@include font-size(16);
+}

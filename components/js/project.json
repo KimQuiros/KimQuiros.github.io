@@ -1,0 +1,52 @@
+{	
+	"projects":[
+							{
+								"title":"Player Music",
+								"img1": "img/player.jpg",
+								"img2": "img/player.jpg",
+								"img3": "img/player.jpg",
+								"text":"Este proyecto fue creado con Javascript puro, es un trabajo realizado en el CETAV junto con mis compañeros. La idea era crear nuestro propio reproductor de musica el cual lo nombramos como Player Music.",
+								"link":"works/Reproductor/index.html",
+								"tag1":"JavaScript",
+								"tag2":"CSS",
+								"tag3":"",
+								"git":"https://github.com/KimQuiros/Reproductor"
+							},
+							{
+								"title":"Wikipedia",
+								"img1": "img/player.jpg",
+								"img2": "img/player.jpg",
+								"img3": "img/player.jpg",
+								"text":"Diseno hecho en el CETAV. Propuesta para el nuevo rediseño de la pagina Wikipedia",
+								"link":"https://marvelapp.com/3g2ei8g",
+								"tag1":"Design",
+								"tag2":"",
+								"tag3":"",
+								"git":""
+							},
+							{
+								"title":"RecipesBook",
+								"img1": "img/player.jpg",
+								"img2": "img/player.jpg",
+								"img3": "img/player.jpg",
+								"text":"Este proyecto fue creado con Javascript, JQuery y Sass. La información se encuentra en una base de datos y es atraida con PHP. RecipesBook es un proyecto creado en el CETAV junto con 2 compañeros.",
+								"link":"works/recipes/index.html",
+								"tag1":"JavaScript",
+								"tag2":"CSS",
+								"tag3":"",
+								"git":"https://github.com/KimQuiros/recipesbook"
+							},
+							{
+								"title":"RecipesBook",
+								"img1": "img/player.jpg",
+								"img2": "img/player.jpg",
+								"img3": "img/player.jpg",
+								"text":"Este proyecto fue creado con Javascript, JQuery y Sass. La información se encuentra en una base de datos y es atraida con PHP. RecipesBook es un proyecto creado en el CETAV junto con 2 compañeros.",
+								"link":"works/recipes/index.html",
+								"tag1":"JavaScript",
+								"tag2":"CSS",
+								"tag3":"",
+								"git":"https://github.com/KimQuiros/recipesbook"
+							}
+						]	
+}

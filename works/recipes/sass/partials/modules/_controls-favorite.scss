@@ -1,0 +1,22 @@
+.container-controls{
+  float: right;
+  top: 38px;
+  position: relative; 
+  right: 103px;
+  .icon{
+    width: 28px;
+  }
+  .controls{
+    border: none;
+    height: 39px;
+    background: $white;
+  }
+  .container-controls-download-img{
+    margin-top: -2px;
+    cursor: pointer;
+  }
+  .container-controls-download, .container-controls-favorite{
+    position: relative;
+    top: -63px;
+  }
+}

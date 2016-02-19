@@ -1,0 +1,24 @@
+/*----------Indice-------------
+		#partials
+		#modules
+
+	Importar-las-hojas-scss
+*/
+
+//  #partials
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/globals";
+
+//	#modules
+@import "partials/modules/header";
+@import "partials/modules/about";
+@import "partials/modules/categories";
+@import "partials/modules/controls-book";
+@import "partials/modules/book";
+@import "partials/modules/pop-up";
+@import "partials/modules/content-book";
+@import "partials/modules/controls-favorite";
+@import "partials/modules/indice";
+

@@ -1,0 +1,12 @@
+.container-about{
+	top: 178px;
+	position: relative;
+	color:$white;
+	.paragraph-about{
+		@include font-size(18);
+	  text-align: left;
+	  width: 673px;
+	  font-family: $josefin-sans;
+	  margin: 0 auto;
+	}
+}

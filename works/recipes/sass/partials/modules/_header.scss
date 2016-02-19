@@ -1,0 +1,22 @@
+.container-header-logo-controls{
+	background-color:#171619;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	height: 80px;
+	.container-header-logo-controls-img{
+		width: 173px;
+		margin-left: 69px;
+		margin-top: -4px;
+		top: 16px;
+		position: relative;
+	}
+}
+.container-header{
+  background: url(../img/categories.jpg) no-repeat fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+	background-size: 100%;
+	height: 650px;
+}

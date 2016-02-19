@@ -1,0 +1,28 @@
+/*----------Indice-------------
+		#partials
+		#modules
+
+	Importar-las-hojas-scss
+*/
+
+//  #partials
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/globals";
+
+//	#modules
+@import "partials/modules/button";
+@import "partials/modules/navegation";
+@import "partials/modules/header";
+@import "partials/modules/header-welcome";
+@import "partials/modules/about-me";
+@import "partials/modules/skills";
+@import "partials/modules/works";
+@import "partials/modules/contact";
+@import "partials/modules/contact-information";
+@import "partials/modules/contact-redes-sociales";
+@import "partials/modules/footer";
+
+
+

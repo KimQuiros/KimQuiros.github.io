@@ -1,0 +1,20 @@
+.container-controls-book{
+  margin-bottom:2%;
+  margin-top: 65px;
+}
+.preview, .next{
+  @include font-size(12);
+  background: $dark-pink;
+  border: none;
+  cursor: pointer;
+  color: $white;
+  width: 62px;
+  height: 30px;
+}
+.preview{
+  margin-left: 68px;
+}
+.next{
+  float: right;
+  margin-right: 68px;
+}

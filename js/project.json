@@ -1,0 +1,28 @@
+{	
+	"projects":[
+							{
+								"title":"Player Music",
+								"image": "img/player.jpg",
+								"text":"Este proyecto fue creado con Javascript puro, es un trabajo realizado en el CETAV junto con mis compañeros. La idea era crear nuestro propio reproductor de musica el cual lo nombramos como Player Music.",
+								"link":"works/Reproductor/index.html",
+								"position":"first",
+								"git":"https://github.com/KimQuiros/Reproductor"
+							},
+							{
+								"title":"Spreadsheets",
+								"image": "img/spreadsheets.png",
+								"text":"Spreadsheets fue creado con Javascript la idea es crea una tabla parecida a Excel el cual puede guardar, descargar, buscar información y crear nuevas filas. Este trabajo fue desarrollado en el CETAV junto con 2 compañeros.",
+								"link":"works/Table/index.html",
+								"position":"second",
+								"git":"https://github.com/KimQuiros/SpreadSheets"
+							},
+							{
+								"title":"RecipesBook",
+								"image": "img/recipesbook.jpg",
+								"text":"Este proyecto fue creado con Javascript, JQuery y Sass. La información se encuentra en una base de datos y es atraida con PHP. RecipesBook es un proyecto creado en el CETAV junto con 2 compañeros.",
+								"link":"works/recipes/index.html",
+								"position":"third",
+								"git":"https://github.com/KimQuiros/recipesbook"
+							}
+						]	
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My SpreadSheets App</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<img  class="logo" src="img/logo.png"/>
+		<button id="Save" class="save" onclick="table.saveInfo()">Save</button>
+		<button id="add" class="add-row" onclick="table.addRow()">Add Row</button>
+		<img  class="img-search" src="img/search.png">
+		<input id="search" class="search" type="text" placeholder="Search..." onkeyup="table.searchtable()"/>
+		<button id="Download" class="download" onclick="table.dowloadInfo()">Download</button>
+		<table id="table" class="table"></table>
+		<div class="container-filas">
+			<ul id="filas" class="fila"></ul>
+		</div>
+		
+	</body>
+	<script src="js/script.js"></script>
+</html>  
+   

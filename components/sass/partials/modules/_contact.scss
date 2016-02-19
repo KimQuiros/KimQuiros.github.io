@@ -1,0 +1,25 @@
+/*----------Indice-------------
+		#container-contact
+		#container-contact-title
+		#contact-form-and-information
+*/
+// #container-contact
+.container-contact{
+	background: url(../img/contact.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:520px;
+	padding: $padding-container;
+	// #container-contact-title
+	.container-contact-title{
+		color: $black;
+	}	
+}
+// #contact-form-and-information
+.container-contact-information{
+	display: inline-block;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
